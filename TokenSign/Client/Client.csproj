@@ -58,8 +58,10 @@
     <Compile Include="Add.cs" />
     <Compile Include="Common\AppSettingsConfig.cs" />
     <Compile Include="Common\WebApiHelper.cs" />
+    <Compile Include="Cookie.cs" />
     <Compile Include="Entity\HttpResponseMsg.cs" />
     <Compile Include="LogAnalyzer.cs" />
+    <Compile Include="LoginEntity.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
