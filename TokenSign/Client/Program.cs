@@ -25,5 +25,7 @@ namespace Client
             var product2 = WebApiHelper.Post<ProductResultMsg>("http://localhost:14826/api/product/addProduct",JsonConvert.SerializeObject(product), staffId);
             Console.Read();
         }
+
+        
     }
 }
